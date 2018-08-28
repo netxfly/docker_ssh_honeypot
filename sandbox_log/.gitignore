@@ -1,0 +1,8 @@
+*.sh
+.vscode
+.idea
+client
+server
+main
+sangbox_log
+*.iml

@@ -1,0 +1,11 @@
+--- config-top.h.old    2015-09-18 10:42:18.000000000 +0200
++++ config-top.h        2015-09-17 15:58:34.000000000 +0200
+@@ -106,7 +106,7 @@
+
+ /* Define if you want each line saved to the history list in bashhist.c:
+    bash_add_history() to be sent to syslog(). */
+-/* #define SYSLOG_HISTORY */
++#define SYSLOG_HISTORY
+ #if defined (SYSLOG_HISTORY)
+ #  define SYSLOG_FACILITY LOG_USER
+ #  define SYSLOG_LEVEL LOG_INFO
